@@ -1,8 +1,3 @@
-# Meteor Addon Template
+# Hyperion
 
-A template to allow easy usage of the Meteor Addon API.
-
-### How to use:  
-- Clone this project
-- Use this template to create new modules/commands
-- Run the mod with Meteor.
+1.20.2 rewrite of Orion and Ion to cease pointless maintenance of outdated/bad code
