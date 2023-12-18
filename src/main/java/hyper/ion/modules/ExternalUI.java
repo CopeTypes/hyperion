@@ -80,6 +80,7 @@ public class ExternalUI extends Module {
     //title:text
     //quit
 
+    //todo this will need to be changed to work with hyperion-api
     private final File EXTERNAL_HUD = new File(Hyperion.ROOT, "external-hud.jar");
     private Process ExternalHudProcess;
 
@@ -116,6 +117,7 @@ public class ExternalUI extends Module {
     }
 
     private void hudThread() {
+        //todo this will need to be changed to work with hyperion-api
         String[] command = {"cmd", "/c" , "java -jar " +  "\"" + EXTERNAL_HUD.getAbsolutePath() + "\"", port.get().toString()};
         //info(command);
         try {
